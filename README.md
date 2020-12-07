@@ -17,7 +17,7 @@ Once the Tedious Connection object has been acquired, the tedious API can be use
 ## Example
 
 ```javascript
-var ConnectionPool = require('tedious-connection-pool');
+var ConnectionPool = require('tedious-connection-pool2');
 ConnectionPool.overrideTedious(require('tedious'));
 var Request = require('tedious').Request;
 
